@@ -8,7 +8,7 @@ then
 fi
 
 KERNEL_REPO=https://github.com/aslenofarid/kernel_asus_sdm660
-BRANCH=lineage-17.1
+BRANCH=potum-ksu
 
 git config --global user.name $GITHUB_USERNAME
 git config --global user.email $GITHUB_EMAIL
