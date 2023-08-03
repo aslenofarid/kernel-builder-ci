@@ -27,10 +27,10 @@ err() {
 }
 
 KERNEL_DIR="$(pwd)"
-ZIPNAME="Perf Kernel with SU"
+ZIPNAME="Potum-KSU"
 MODEL="Asus Zenfone Max Pro M1"
 DEVICE="X00TD"
-DEFCONFIG=X00TD_defconfig
+DEFCONFIG=potum_defconfig
 COMPILER=clang
 
 # Brutal Kernel Only !!!
@@ -55,8 +55,8 @@ CLANG_DIR=$KERNEL_DIR/clang
 PTTG=1
 	if [ $PTTG == 1 ]
 	then
-		CHATID="-1001328821526"
-		PRIVATE_CHATID="661131869"
+		CHATID="$TG_CHAT_ID"
+		PRIVATE_CHATID="$TG_PRIVATE_CHAT_ID"
 	fi
 LOG_DEBUG=0
 
